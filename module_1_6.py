@@ -10,8 +10,7 @@ print('Modified dictionary:', my_dict)
 
 
 my_set = {1, 2.3, 'Vasya', (1, 2, 3), 1, 2.3, 'Vasya', (1, 2, 3)}
-print(my_set)
-my_set.add(8)
-my_set.add('mouse')
+print('Set:', my_set)
+my_set.update({8, 'mouse'})
 my_set.discard(2.3)
-print(my_set)
+print('Modified set:', my_set)
